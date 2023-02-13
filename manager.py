@@ -12,6 +12,7 @@ while True:
     5. Xem Thông tin bệnh nhân
     6. Tìm bệnh nhân theo Tên
     7. Số lượng bệnh nhân
+    8. Từ vựng ngành y tế
     ''')
     select = input("Mời chọn chức năng:  ")
 
@@ -63,5 +64,19 @@ while True:
 
         elif select == 7:
             print(f"\nHiện có { len(ds) } Bệnh nhân \n")
+        elif select == 8:
+            print("Một số từ vựng trong ngành y tế")
+            print("Hospital: Bệnh viện")
+            print("Field hospital: Bệnh viên dã chiến")
+            print("Patient : Bệnh nhân , người bệnh")
+            print("Attending doctor: Bác sĩ điều trị")
+            print("Physiotherapist: Chuyên gia vật lý trị liệu")
+            print("Orthotist: Chuyên viên chỉnh hình")
+            print("X-ray technician: Kỹ thuật viên X-quang")
+            print("Surgery: Ngoại khoa")
+            print("Physiotherapist: Chuyên gia vật lý trị liệu")
+            print("Orthotist: Chuyên viên chỉnh hình")   
+            print("Accident and Emergency Department (A&E): Khoa tai nạn và cấp cứu.")
+            print("Laboratory: Phòng xét nghiệm")
     else:
         print("\nBạn phải nhập số. Vui Lòng nhập lại !")
